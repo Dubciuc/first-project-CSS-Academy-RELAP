@@ -404,6 +404,10 @@ section {
     padding-top: 90px;
 }
 
+.column_2_3 {
+    display: flex;
+}
+
 .compart {
     width: 370px;
 }
@@ -925,6 +929,38 @@ footer {
         margin-bottom: 50%;
     }
 
+    .name_btn {
+        display: flex;
+        padding-left: 26px;
+        flex-direction: column;
+        padding-bottom: 35px;
+        gap: 26px;
+        padding-top: 54px;
+    }
+
+    .text_s3 .text, .text_s3 button {
+        display: none;
+    }
+
+    .s3 {
+        height: 100%;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    .cookie img {
+        height: 375px;
+    }
+
+    .column_2_3 img {
+        width: 100%;
+    }
+
+    .col_3_small_s3 img {
+        width: 81px;
+    }
 
 
 
