@@ -421,6 +421,7 @@ section {
     justify-content: space-around;
     padding: 135px;
     gap: 100px;
+    position: relative;
 }
 
 .message_image {
@@ -434,7 +435,6 @@ section {
     height: 544px;
     background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
     border-radius: 3px;
-    top: -9px;
 }
 .message_image img {
     position: absolute;
@@ -445,6 +445,10 @@ section {
 .text_s5 h2 {
     padding-top: 18px;
     padding-bottom: 23px;
+}
+
+.text_s5 h3 {
+    display: none;
 }
 
 .text_s5 button {
@@ -528,6 +532,10 @@ section {
     color: white;
 }
 
+.text_box_s6 h3 {
+    display: none;
+}
+
 .text_box_s6 p {
     padding-top: 23px;
     color: white;
@@ -559,6 +567,10 @@ section {
 
 .s7 h5 {
     padding-top: 77px;
+}
+
+.textbox_s7 h3 {
+    display: none;
 }
 
 .textbox_s7 {
@@ -962,10 +974,131 @@ footer {
         width: 81px;
     }
 
-
-
+    .s4 {
+        height: 100%;
+    }
     .container_s4 {
         flex-direction: column;
+        padding-left: 15px;
+        padding-top: 80px;
     }
+
+    .compart {
+        padding-bottom: 64px;
+    }
+
+    .compart h4 {
+        padding-bottom: 9px;
+        padding-top: 25px;
+    }
+
+    .compart p {
+        padding-right: 15px;
+    }
+
+    .container_s5 {
+        flex-direction: column;
+        padding: 83px 15px 48px 15px;
+    }
+
+    .message_image {
+        width: 328px;
+        height: 317px;
+    }
+
+    .message_image .square_gradient {
+        position: absolute;
+        width: 328px;
+        height: 317px;
+    }
+
+    .message_image img {
+        max-width: 328px;
+        left: 17px;
+        top: -19px;
+    }
+
+    .text_s5 h3{
+        display: block;
+        color: black;
+    }
+
+    .text_s5 h2 {
+        display: none;
+    }
+
+    .s6 {
+        height: 1000px;
+    }
+
+    .container_s6 {
+        flex-direction: column;
+        padding-top: 45px;
+        padding-left: 15px;
+    }
+
+    .phone_1 {
+        width: 374px;
+        top: 611px;
+        right: 7px;
+    }
+
+    .phone_2 {
+        width: 547px;
+        top: 523px;
+        right: -19px;
+    }
+
+    .text_box_s6 h5 {
+        padding-top: 0;
+    }
+
+    .text_box_s6 {
+        padding-left: 0;
+        width: 95%;
+    }
+
+    .text_box_s6 h2 {
+        display: none;
+    }
+
+    .text_box_s6 h3 {
+        display: block;
+        padding-bottom: 24px;
+        margin: 0;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .s7 {
+        padding-left: 15px;
+    }
+
+    .textbox_s7 {
+        padding-top: 61px;
+        margin: 0;
+    }
+
+    .textbox_s7 h2 {
+        display: none;
+    }
+
+    .textbox_s7 h3 {
+        display: block;
+        color: black;
+        padding-top: 17px;
+        margin: 0;
+    }
+
+    .cards_s7 {
+        flex-direction: column;
+    }
+
+    .card_s7 button{
+        margin-top: 155px;
+    }
+
 
 }
