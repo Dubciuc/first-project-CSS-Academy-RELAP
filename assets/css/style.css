@@ -613,7 +613,7 @@ section {
 }
 
 .s8 {
-    background-color: #F2F2FF;
+    background-color: #FDF2FF;
 }
 
 .container_s8 {
@@ -652,6 +652,7 @@ section {
 
 .textbox_s8 {
     padding-top: 30px;
+    padding-bottom: 55px;
 }
 
 .textbox_s8 p {
@@ -666,22 +667,26 @@ section {
     background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
 }
 
+.container_s9 {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
 .s9 h5 {
     color: white;
     padding-top: 77px;
-    padding-left: 135px;
 }
 
 .s9 h2 {
     color: white;
-    padding-left: 135px;
     padding-top: 18px;
 }
 
 .cards_s9 {
     display: flex;
     justify-content: space-between;
-    padding: 57px 135px;
+    padding-top: 57px;
+    padding-bottom: 57px;
 }
 
 .card_s9 {
@@ -1100,6 +1105,50 @@ footer {
         margin-top: 155px;
     }
 
+    .container_s8 {
+        padding: 99px 15px 15px;
+        display: block;
+    }
 
+    .textbox_s8 {
+        padding-top: 37px;
+        width: 95%;
+    }
+
+    .container_s9 {
+        padding-left: 15px;
+        padding-bottom: 80px;
+    }
+
+    .cards_s9 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card_s9 {
+        width: 270px;
+    }
+
+    .s10 {
+        height: 100%;
+    }
+
+    .statistica {
+        padding-top: 83px;
+        padding-left: 15px;
+        flex-direction: column;
+        gap: 45px;
+        padding-bottom: 62px;
+    }
+
+    .stat {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .textbox_stat {
+        width: auto;
+    }
 
 }
