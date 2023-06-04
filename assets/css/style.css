@@ -848,6 +848,7 @@ footer {
 
 .icons {
     display: flex;
+    gap: 8px;
 }
 
 
@@ -1180,4 +1181,31 @@ footer {
         width: 345px;
     }
 
+    footer {
+        height: 100%;
+    }
+
+    .info_footer {
+        padding-left: 15px;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    .the_end {
+        padding: 40px 15px;
+        justify-content: space-between;
+        gap: 36px;
+    }
+
+    .icons {
+        gap: 8px;
+    }
+
+    .icons img {
+        height: 32px;
+    }
 }
