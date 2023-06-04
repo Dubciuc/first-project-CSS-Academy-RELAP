@@ -755,6 +755,10 @@ h3 {
     padding-left: 135px;
 }
 
+.textbox_s11 h3 {
+    display: none;
+}
+
 .cards_pay {
     display: flex;
     justify-content: center;
@@ -1149,6 +1153,31 @@ footer {
 
     .textbox_stat {
         width: auto;
+    }
+
+    .textbox_s11 {
+        padding-top: 61px;
+        padding-left: 15px;
+    }
+
+    .textbox_s11 h3 {
+        display: block;
+        color: black;
+        margin: 0;
+    }
+
+    .textbox_s11 h2 {
+        display: none;
+    }
+
+    .cards_pay {
+        flex-direction: column;
+        padding-left: 15px;
+        padding-bottom: 80px;
+    }
+
+    .card_pay {
+        width: 345px;
     }
 
 }
