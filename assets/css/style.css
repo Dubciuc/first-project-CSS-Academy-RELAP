@@ -58,8 +58,10 @@ nav .nav_right {
 
 header {
     background-image: url("../images/image.png");
+    background-repeat: no-repeat;
     height: 90vh;
     position: relative;
+    width: 100%;
 }
 
 .for_media {
